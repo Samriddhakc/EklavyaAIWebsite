@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "git add . && git commit -m 'deploy' && git push -f origin main && git push origin main:gh-pages",
+    "deploy": "git add . && git commit -m 'deploy' && git pull && git push -f origin main && git push origin main:gh-pages",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
