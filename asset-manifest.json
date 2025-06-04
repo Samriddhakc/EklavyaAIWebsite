@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/EklavyaAIWebsite/static/css/main.e1d1cfcd.css",
-    "main.js": "/EklavyaAIWebsite/static/js/main.e7c25db5.js",
+    "main.js": "/EklavyaAIWebsite/static/js/main.e7ff93ec.js",
     "static/js/453.e68b15a9.chunk.js": "/EklavyaAIWebsite/static/js/453.e68b15a9.chunk.js",
     "index.html": "/EklavyaAIWebsite/index.html",
     "main.e1d1cfcd.css.map": "/EklavyaAIWebsite/static/css/main.e1d1cfcd.css.map",
-    "main.e7c25db5.js.map": "/EklavyaAIWebsite/static/js/main.e7c25db5.js.map",
+    "main.e7ff93ec.js.map": "/EklavyaAIWebsite/static/js/main.e7ff93ec.js.map",
     "453.e68b15a9.chunk.js.map": "/EklavyaAIWebsite/static/js/453.e68b15a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1d1cfcd.css",
-    "static/js/main.e7c25db5.js"
+    "static/js/main.e7ff93ec.js"
   ]
 }
