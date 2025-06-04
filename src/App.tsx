@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <nav className="navbar">
         <div className="logo">
-          <img src="/EklavyaAILogo.png" alt="EklavyaAI" className="logo-image" />
+          <img src="/EklavyaAIWebsite/EklavyaAILogo.png" alt="EklavyaAI" className="logo-image" />
           <div className="company-name">
             <h1>EKLAVYA AI</h1>
             <p>YOUR PERSONALIZED AI CONSULTANT</p>
@@ -54,18 +54,18 @@ function App() {
         <h2>Meet Our Team</h2>
         <div className="team-grid">
           <div className="team-member">
-            <img src="/akash_regmi_pic.png" alt="Akash Regmi" className="team-photo" />
+            <img src="/EklavyaAIWebsite/akash_regmi_pic.png" alt="Akash Regmi" className="team-photo" />
             <h3>Akash Regmi</h3>
             <p>Chief Executive Officer ( CEO )</p>
           </div>
           <div className="team-member">
-            <img src="/rabina_phuyel_pic.png" alt="Rabina Phuyel" className="team-photo" />
+            <img src="/EklavyaAIWebsite/rabina_phuyel_pic.png" alt="Rabina Phuyel" className="team-photo" />
             <h3>Rabina Phuyel</h3>
             <p>Chief Product Officer ( CPO )</p>
             <p>Front End Engineer @ Target | UXD Masters from Rutgers</p>
           </div>
           <div className="team-member">
-          <img src="/samriddhakc_pic.png" alt="Samriddha KC" className="team-photo" />
+          <img src="/EklavyaAIWebsite/samriddhakc_pic.png" alt="Samriddha KC" className="team-photo" />
           <h3>Samriddha KC</h3>
             <p>Chief Technology Officer ( CTO )</p>
             <p>Engineer, WhatsApp Infra @ Meta | Previous @ Microsoft Azure SQL DB</p>
