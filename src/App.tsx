@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+ import ConsultationForm from "./ConsultationForm";
 
   /**
    * App component that renders the main layout of the website.
@@ -7,6 +8,8 @@ import './App.css';
    * @returns {React.ReactElement} The App component.
    */
 function App() {
+  const [showForm, setShowForm] = useState(false);
+  console.log('showForm:', showForm);
   return (
     <div className="App">
       <nav className="navbar">
@@ -22,14 +25,18 @@ function App() {
           <a href="#offerings">Offerings</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
+          <button className="get-started-btn" onClick={() => setShowForm(true)}>Get Started</button>
         </div>
       </nav>
 
       <section id="home" className="hero">
-        <div className="hero-content">
-          <h1>Transform Your Business with AI</h1>
-          <p>Intelligent Solutions for Modern Enterprises</p>
-        </div>
+      <div className="hero-content">
+  <img src="EklavyaAIWebsite/eklavyaa_hero_pic.png" alt="Hero" className="hero-photo" />
+  <div className="hero-text">
+    <h1>Transform Your Business with AI</h1>
+    <p>Intelligent Solutions for Modern Enterprises</p>
+  </div>
+</div>
       </section>
 
       <section id="offerings" className="offerings">
@@ -72,12 +79,22 @@ function App() {
           </div>
         </div>
       </section>
+      <section id="contact" className="contact">
+  <h2>Contact Us</h2>
+  <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+  <p>Email: <a href="mailto:contact@eklavyaai.com">contact@eklavyaai.com</a></p>
+  <button className="get-started-btn" onClick={() => setShowForm(true)}>
+    Get Started
+  </button>
+</section>
 
       <footer className="footer">
         <p>&copy; 2025 EklavyaAI. All rights reserved.</p>
       </footer>
+      {showForm && <ConsultationForm onClose={() => setShowForm(false)} />}
     </div>
   );
+ 
 }
 
 export default App;

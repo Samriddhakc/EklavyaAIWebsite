@@ -55,11 +55,10 @@
 .nav-links a:hover {
   color: #007bff;
 }
-
 .hero {
   background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
   color: white;
-  padding: 10rem 5% 5rem;
+  padding: 3rem 5% 2rem;
   text-align: center;
 }
 
@@ -68,9 +67,22 @@
   margin-bottom: 1rem;
 }
 
-.hero-content p {
-  font-size: 1.5rem;
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
+
+.hero-photo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 
 .offerings {
   padding: 5rem 5%;
@@ -155,6 +167,7 @@
 @media (max-width: 768px) {
   .nav-links {
     display: none;
+    gap: 20px; 
   }
   
   .hero-content h1 {
@@ -164,4 +177,52 @@
   .hero-content p {
     font-size: 1.2rem;
   }
+  
+}
+.get-started-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 16px;
+  margin-left: 20px; 
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-started-btn:hover {
+  color: #007bff; 
+  border-color: #007bff;
+}
+.contact {
+  padding: 2rem 1rem;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.contact .get-started-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
