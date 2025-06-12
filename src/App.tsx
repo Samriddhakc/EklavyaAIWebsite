@@ -32,9 +32,9 @@ function App() {
       <section id="home" className="hero">
       <div className="hero-content">
   <img src="EklavyaAIWebsite/eklavyaa_hero_pic.png" alt="Hero" className="hero-photo" />
-  <div className="hero-text">
+  <div>
     <h1>Transform Your Business with AI</h1>
-    <p>Intelligent Solutions for Modern Enterprises</p>
+    <h2>Intelligent Solutions for Modern Enterprises</h2>
   </div>
 </div>
       </section>
